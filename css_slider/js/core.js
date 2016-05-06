@@ -17,7 +17,6 @@ function slider(p){
 			that.nextSlide(delta);
 			lastAnimation = timeNow;
 		});	
-		document.onmousemove = that.moveCursor;
 	},
 	this.nextSlide = function(delta) {
 		if(delta < 1){
